@@ -6,7 +6,12 @@ Repository for CS419 - Information Retrieval model evaluation assignment
 
 Install Python 3.6.8 64-bit
 
-Install package stop_words and nltk as well as "stopwords" from nltp.corpus
+Install package:
+
+- stop_words
+- nltk
+- matplotlib
+- sklearn
 
 ```sh
 pip3 install nltk stop_words
@@ -16,4 +21,10 @@ pip3 install nltk stop_words
 python3
 import nltk
 nltk.download("stopwords")
+```
+
+## Run
+
+```sh
+python3 main.py
 ```

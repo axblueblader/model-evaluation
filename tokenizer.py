@@ -1,7 +1,10 @@
+strip_chars = ',.\n\t()[]{}\\|\'\"<>*.-'
+
+
 def termize_doc(doc):
     tokens = set()
     for token in doc.lower().split():
-        tokens.add(token)
+        tokens.add(token.strip(strip_chars))
 
     return tokens
 
@@ -9,7 +12,7 @@ def termize_doc(doc):
 def tokenize_str(str):
     tokens = list()
     for token in str.lower().split():
-        tokens.append(token)
+        tokens.append(token.strip(strip_chars))
 
     return tokens
 
