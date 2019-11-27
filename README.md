@@ -2,6 +2,10 @@
 
 Repository for CS419 - Information Retrieval model evaluation assignment
 
+## Disclaimer
+
+This project was poorly implemented, it gives results but unsure of correctness and also will not run well with large data set.
+
 ## Prerequisite
 
 Install Python 3.6.8 64-bit
